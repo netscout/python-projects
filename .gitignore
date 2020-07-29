@@ -1,0 +1,204 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+deeplearning/handson-ml2/01_the_machine_learning_landscape.ipynb
+deeplearning/handson-ml2/02_end_to_end_machine_learning_project.ipynb
+deeplearning/handson-ml2/03_classification.ipynb
+deeplearning/handson-ml2/04_training_linear_models.ipynb
+deeplearning/handson-ml2/05_support_vector_machines.ipynb
+deeplearning/handson-ml2/06_decision_trees.ipynb
+deeplearning/handson-ml2/07_ensemble_learning_and_random_forests.ipynb
+deeplearning/handson-ml2/08_dimensionality_reduction.ipynb
+deeplearning/handson-ml2/09_unsupervised_learning.ipynb
+deeplearning/handson-ml2/10_neural_nets_with_keras.ipynb
+deeplearning/handson-ml2/11_training_deep_neural_networks.ipynb
+deeplearning/handson-ml2/12_custom_models_and_training_with_tensorflow.ipynb
+deeplearning/handson-ml2/13_loading_and_preprocessing_data.ipynb
+deeplearning/handson-ml2/14_deep_computer_vision_with_cnns.ipynb
+deeplearning/handson-ml2/15_processing_sequences_using_rnns_and_cnns.ipynb
+deeplearning/handson-ml2/16_nlp_with_rnns_and_attention.ipynb
+deeplearning/handson-ml2/17_autoencoders_and_gans.ipynb
+deeplearning/handson-ml2/18_reinforcement_learning.ipynb
+deeplearning/handson-ml2/19_training_and_deploying_at_scale.ipynb
+deeplearning/handson-ml2/apt.txt
+deeplearning/handson-ml2/book_equations.ipynb
+deeplearning/handson-ml2/book_equations.pdf
+deeplearning/handson-ml2/changes_in_2nd_edition.md
+deeplearning/handson-ml2/cover.png
+deeplearning/handson-ml2/datasets/housing/housing.csv
+deeplearning/handson-ml2/datasets/housing/housing.tgz
+deeplearning/handson-ml2/datasets/housing/README.md
+deeplearning/handson-ml2/datasets/inception/imagenet_class_names.txt
+deeplearning/handson-ml2/datasets/lifesat/gdp_per_capita.csv
+deeplearning/handson-ml2/datasets/lifesat/oecd_bli_2015.csv
+deeplearning/handson-ml2/datasets/lifesat/README.md
+deeplearning/handson-ml2/docker/bashrc.bash
+deeplearning/handson-ml2/docker/bin/nbclean_checkpoints
+deeplearning/handson-ml2/docker/bin/nbdiff_checkpoint
+deeplearning/handson-ml2/docker/bin/rm_empty_subdirs
+deeplearning/handson-ml2/docker/bin/tensorboard
+deeplearning/handson-ml2/docker/docker-compose.yml
+deeplearning/handson-ml2/docker/Dockerfile
+deeplearning/handson-ml2/docker/jupyter_notebook_config.py
+deeplearning/handson-ml2/docker/Makefile
+deeplearning/handson-ml2/docker/README.md
+deeplearning/handson-ml2/environment-windows.yml
+deeplearning/handson-ml2/environment.yml
+deeplearning/handson-ml2/extra_autodiff.ipynb
+deeplearning/handson-ml2/extra_gradient_descent_comparison.ipynb
+deeplearning/handson-ml2/images/ann/README
+deeplearning/handson-ml2/images/autoencoders/README
+deeplearning/handson-ml2/images/classification/README
+deeplearning/handson-ml2/images/cnn/README
+deeplearning/handson-ml2/images/decision_trees/README
+deeplearning/handson-ml2/images/deep/README
+deeplearning/handson-ml2/images/distributed/README
+deeplearning/handson-ml2/images/end_to_end_project/README
+deeplearning/handson-ml2/images/ensembles/README
+deeplearning/handson-ml2/images/fundamentals/README
+deeplearning/handson-ml2/images/nlp/README
+deeplearning/handson-ml2/images/rl/breakout.gif
+deeplearning/handson-ml2/images/rl/README
+deeplearning/handson-ml2/images/rnn/README
+deeplearning/handson-ml2/images/svm/README
+deeplearning/handson-ml2/images/tensorflow/README
+deeplearning/handson-ml2/images/training_linear_models/README
+deeplearning/handson-ml2/images/unsupervised_learning/README
+deeplearning/handson-ml2/index.ipynb
+deeplearning/handson-ml2/INSTALL.md
+deeplearning/handson-ml2/LICENSE
+deeplearning/handson-ml2/math_differential_calculus.ipynb
+deeplearning/handson-ml2/math_linear_algebra.ipynb
+deeplearning/handson-ml2/README.md
+deeplearning/handson-ml2/requirements.txt
+deeplearning/handson-ml2/tools_matplotlib.ipynb
+deeplearning/handson-ml2/tools_numpy.ipynb
+deeplearning/handson-ml2/tools_pandas.ipynb
+deeplearning/handson-ml2/work_in_progress/extra_capsnets-cn.ipynb
+deeplearning/handson-ml2/work_in_progress/extra_capsnets.ipynb
+deeplearning/handson-ml2/work_in_progress/extra_tensorflow_reproducibility.ipynb
+
+deeplearning/DeepLearning_Examples/*
+deeplearning/dl/*

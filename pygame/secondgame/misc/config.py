@@ -1,0 +1,64 @@
+import misc.colors as colors
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+BACKGROUND_IMAGE = 'images/background.jpg'
+
+SCREEN_WIDTH_CENTER = SCREEN_WIDTH // 2
+SCREEN_HEIGHT_CENTER = SCREEN_HEIGHT // 2
+
+FRAME_RATE = 60
+
+ROW_COUNT = 6
+BRICK_WIDTH = 60
+BRICK_HEIGHT = 20
+BRICK_COLOR = colors.RED1
+OFFSET_Y = BRICK_HEIGHT + 10
+
+BALL_SPEED = 3
+BALL_RADIUS = 8
+BALL_COLOR = colors.GREEN
+
+PADDLE_WIDTH = 80
+PADDLE_HEIGHT = 20
+PADDLE_COLOR = colors.ALICEBLUE
+PADDLE_SPEED = 6
+
+STATUS_OFFSET_Y = 5
+
+TEXT_COLOR = colors.YELLOW1
+INITIAL_LIVES = 3
+LIVES_RIGHT_OFFSET = 85
+LIVES_OFFSET = SCREEN_WIDTH - LIVES_RIGHT_OFFSET
+SCORE_OFFSET = 5
+
+#폰트 목록 확인
+#print(pygame.font.get_fonts())
+FONT_NAME = 'nanummyeongjo'#'Arial'
+FONT_SIZE = 20
+
+EFFECT_DURATION = 20
+
+SOUNDS_EFFECTS = dict(
+    brick_hit='sound_effects/brick_hit.wav',
+    effect_done='sound_effects/effect_done.wav',
+    paddle_hit='sound_effects/paddle_hit.wav',
+    level_complete='sound_effects/level_complete.wav',
+)
+
+MESSAGE_DURATION = 2
+
+BUTTON_TEXT_COLOR = colors.WHITE,
+BUTTON_NORMAL_BACK_COLOR = colors.INDIANRED1
+BUTTON_HOVER_BACK_COLOR = colors.INDIANRED2
+BUTTON_PRESSED_BACK_COLOR = colors.INDIANRED3
+BUTTON_BACK_COLOR_DICT = dict(
+    normal=BUTTON_NORMAL_BACK_COLOR,
+    hover=BUTTON_HOVER_BACK_COLOR,
+    pressed=BUTTON_PRESSED_BACK_COLOR
+)
+
+MENU_OFFSET_X = 20
+MENU_OFFSET_Y = 300
+MENU_BUTTON_W = 80
+MENU_BUTTON_H = 50
